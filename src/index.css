@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-roboto;
+}
+
+
+p{
+    @apply font-poppins;
+}
+
+.active{
+  @apply text-[#1A1A1A];
+}
