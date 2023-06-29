@@ -6,19 +6,19 @@ function Blogs() {
     {
       src: "/images/blogs/blog-1.png",
       title:
-        "Boosting Productivity: 5 Effective Strategies for Time Management",
-      des: "Discover proven strategies and practical tips to optimize your time management skills. Learn how to prioritize tasks, minimize distractions, and make the most of your valuable time... ",
+        "Simplifying SaaS Management: How Easenode Streamlines Your Subscription Management Process",
+      des: "Discover how Easenode simplifies the management of multiple SaaS subscriptions, saving you time and effort. Learn about its centralized platform and features that make subscription management a breeze..",
     },
     {
-      src: "/images/blogs/blog-2.png",
+      src: "/images/blogs/blog2.png",
       title:
-        "The Ultimate Guide to Social Media Marketing: Driving Business Growth",
-      des: "Dive into the world of social media marketing with this comprehensive guide. Explore effective strategies, platforms, and content creation techniques to harness the... ",
+        "Optimize Your SaaS Expenses with Easenode: Unlock Cost Savings",
+      des: "Explore how Easenode helps businesses optimize their SaaS expenses. Learn about its spend analysis capabilities, identifying underutilized subscriptions, and negotiating better pricing to achieve significant cost savings...",
     },
     {
       src: "/images/blogs/blog-3.png",
-      title: "Cybersecurity 101: Protecting Your Business in a Digital World",
-      des: "Enhance your understanding of cybersecurity fundamentals and learn how to safeguard your business from cyber threats. Explore essential practices such as data encryption... ",
+      title: "Scale Your SaaS Infrastructure with Easenode: Empower Business Growth",
+      des: "See how Easenode supports businesses in scaling their SaaS infrastructure seamlessly. Discover its features for easy onboarding, streamlined provisioning and deprovisioning, and efficient collaboration to enable your business to grow without limitations...",
     },
   ];
 
