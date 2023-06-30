@@ -19,9 +19,17 @@ function Footer() {
 
           <ul className="flex gap-7 pb-14">
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100093470447814" target="blank">
                 <span className="text-[#999999] text-3xl">
                   <i className="fab fa-facebook"></i>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/company/easenode-tech/about" target="blank">
+                <span className="text-[#999999] text-3xl">
+                  <i className="fa-brands fa-linkedin"></i>
                 </span>
               </a>
             </li>
@@ -35,7 +43,7 @@ function Footer() {
             </li>
 
             <li>
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UCiIGK5khsdooj0vfEvc_7bA" target="blank">
                 <span className="text-[#999999] text-3xl">
                   <i className="fa-brands fa-youtube"></i>
                 </span>

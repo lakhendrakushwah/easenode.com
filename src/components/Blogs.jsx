@@ -4,21 +4,21 @@ import { useEffect, useState } from "react";
 function Blogs() {
   const blogs = [
     {
+      src: "/images/blogs/blog-0.png",
+      title:
+        "The Importance of Effective Spend Management for Businesses",
+      des: "Effective spend management is a critical aspect of running a successful business. It involves strategically planning, monitoring, and controlling expenses to optimize financial resources. In this blog post... ",
+    },
+    {
       src: "/images/blogs/blog-1.png",
       title:
-        "Simplifying SaaS Management: How Easenode Streamlines Your Subscription Management Process",
-      des: "Discover how Easenode simplifies the management of multiple SaaS subscriptions, saving you time and effort. Learn about its centralized platform and features that make subscription management a breeze..",
+        "Unlocking Business Growth with SaaS Management ",
+      des: "Software-as-a-Service (SaaS) applications have become integral to the success of modern businesses. However, effectively managing multiple SaaS subscriptions and ensuring their optimal utilization can be a challenge..... ",
     },
     {
-      src: "/images/blogs/blog2.png",
-      title:
-        "Optimize Your SaaS Expenses with Easenode: Unlock Cost Savings",
-      des: "Explore how Easenode helps businesses optimize their SaaS expenses. Learn about its spend analysis capabilities, identifying underutilized subscriptions, and negotiating better pricing to achieve significant cost savings...",
-    },
-    {
-      src: "/images/blogs/blog-3.png",
-      title: "Scale Your SaaS Infrastructure with Easenode: Empower Business Growth",
-      des: "See how Easenode supports businesses in scaling their SaaS infrastructure seamlessly. Discover its features for easy onboarding, streamlined provisioning and deprovisioning, and efficient collaboration to enable your business to grow without limitations...",
+      src: "/images/blogs/blog-4.png",
+      title: "Cost Optimization and Analysis",
+      des: "Cost optimization and analysis are paramount for businesses aiming to enhance profitability and drive efficiency. With Easenode Tech's comprehensive solutions, businesses can gain deeper insights into their software spend, negotiate better deals with vendors, track expenses in real-time.... ",
     },
   ];
 

@@ -34,7 +34,7 @@ function MarketPlace() {
     },
     {
       src: "/images/marketplaces/marketplace-7.png",
-      title: "AWX",
+      title: "AWS",
       des: "A popular video conferencing and online meeting platform that enables seamless ",
     },
     {

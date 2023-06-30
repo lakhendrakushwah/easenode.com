@@ -15,15 +15,15 @@ function Contact() {
                   any inquiries or support
                 </p>
               </div>
-
+              
               <div>
-                <form action="">
+                <form method="GET" action="maito:support@easenode.com">
                   <div className="flex flex-col lg:flex-row gap-5 pb-5">
-                    <div className="flex-1">
+                    <div className="flex-1" >
                       <input
                         type="text"
                         placeholder="First Name"
-                        className="block w-full rounded-xl border-0 py-4 text-gray-900 shadow-sm ring-1 ring-inset ring-[#EDEDED] placeholder:text-gray-400 placeholder:font-poppins focus:ring-2 focus:ring-inset focus:ring-main "
+                        className="required block w-full rounded-xl border-0 py-4 text-gray-900 shadow-sm ring-1 ring-inset ring-[#EDEDED] placeholder:text-gray-400 placeholder:font-poppins focus:ring-2 focus:ring-inset focus:ring-main "
                       />
                     </div>
                     <div className="flex-1">
@@ -63,7 +63,9 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
+                    value="Submit"
                     className="hover:text-main inline-block  text-lg font-medium hover:bg-transparent bg-main text-light border border-main rounded-xl py-5 px-20 transition-all duration-300"
+                    // href=""
                   >
                     Submit
                   </button>

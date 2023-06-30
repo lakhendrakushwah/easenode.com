@@ -36,6 +36,7 @@ function Header() {
               Blog
             </HashLink>
           </li>
+
           <li>
             <HashLink
               className="text-[#999999] hover:text-secondary transition-all"
@@ -44,6 +45,7 @@ function Header() {
               About us
             </HashLink>
           </li>
+          
           <li>
             <NavLink
               className="text-[#999999] hover:text-secondary transition-all"

@@ -14,7 +14,7 @@ function Help() {
     },
     {
       src: "/images/helps/help-3.png",
-      title: "Analyse your expenditure, optimise costs for growth",
+      title: " Analyse your expenditure and optimise costs for growth",
       des: "Centralise and analyse your purchase and spending data, enabling you to make informed decisions, optimise costs, eliminate unnecessary expenses.",
     },
   ];
