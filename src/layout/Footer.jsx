@@ -9,7 +9,7 @@ function Footer() {
     <div className="bg-[#E6E6E6]">
       <div className="container py-8 md:py-24 flex flex-col md:flex-row justify-between">
         <div className="flex-1 md:w-1/2 flex flex-col ">
-          <h3 className="text-3xl font-bold pb-2">EASEXPENSE</h3>
+          <h3 className="text-3xl font-bold pb-2">EASENODE</h3>
 
           <p className="text-sm text-[#999999] pb-8 w-auto md:max-w-prose">
             Easenode Tech Private Limited is a dynamic and innovative technology
@@ -123,7 +123,7 @@ function Footer() {
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/customer">
                   Login
                 </a>
               </li>

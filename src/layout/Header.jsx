@@ -12,7 +12,7 @@ function Header() {
             <img
               className="w-8/12 mt-3"
               src="/images/logo.png"
-              alt="Easexpense logo"
+              alt="Easenode logo"
             />
           </Link>
         </div>
@@ -59,11 +59,11 @@ function Header() {
         <div className="flex gap-2 md:gap-5">
           <ul className=" gap-5 font-medium font-roboto hidden lg:flex">
             <li>
-              <Link className="text-main ">Sing In</Link>
+              <Link to="/customer" className="text-main ">Sign In</Link>
             </li>
 
             <li>
-              <Link className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4">
+              <Link to="/customer" className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4">
                 Free trial
               </Link>
             </li>
@@ -84,7 +84,7 @@ function Header() {
                 <img
                   className="w-60 mt-10 mb-8"
                   src="/images/logo.png"
-                  alt="Easexpense logo"
+                  alt="Easenode logo"
                 />
               </Link>
             </div>
@@ -113,7 +113,7 @@ function Header() {
             <li>
               <div className=" gap-3 font-medium font-roboto flex flex-col text-center">
                 <Link className="text-main inline-block  text-md  lg:text-lg font-medium hover:bg-main hover:text-light border border-main rounded py-5 px-8 transition-all duration-300">
-                  Sing In
+                  Sign In
                 </Link>
 
                 <Link className="hover:text-main inline-block text-md  lg:text-lg font-medium hover:bg-transparent bg-main text-light border border-main rounded py-5 px-8 transition-all duration-300">
