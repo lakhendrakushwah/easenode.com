@@ -54,7 +54,7 @@ function Contact() {
   const handleSubmit = e => {
     e.preventDefault();
     setSubmitLoading(true);
-    fetch(`http://localhost:5000/submit_data`, {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/submit_data`, {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'

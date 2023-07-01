@@ -54,7 +54,7 @@ function Customer() {
     const handleSubmit = e => {
         e.preventDefault();
         setSubmitLoading(true);
-        fetch(`http://localhost:5000/early_access`, {
+        fetch(`${process.env.REACT_APP_SERVER_URL}/early_access`, {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
