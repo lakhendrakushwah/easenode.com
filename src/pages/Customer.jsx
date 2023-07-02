@@ -1,6 +1,7 @@
 import React from "react";
 import { CircularProgress, Snackbar, Alert, createTheme, ThemeProvider } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+const server_url = import.meta.env.VITE_SERVER_URL;
 
 const theme = createTheme({
     palette: {
@@ -54,7 +55,7 @@ function Customer() {
     const handleSubmit = e => {
         e.preventDefault();
         setSubmitLoading(true);
-        fetch(`${process.env.REACT_APP_SERVER_URL}/early_access`, {
+        fetch(`${server_url}/early_access`, {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
