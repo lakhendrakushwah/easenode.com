@@ -35,7 +35,7 @@ function Footer() {
             </li>
 
             <li>
-              <a href="#">
+              <a href="https://twitter.com/easenode">
                 <span className="text-[#999999] text-3xl">
                   <i className="fa-brands fa-twitter"></i>
                 </span>
@@ -123,7 +123,7 @@ function Footer() {
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="/customer">
+                <a className="text-[#666] text-sm font-poppins" href="https://app.easenode.com/login">
                   Login
                 </a>
               </li>

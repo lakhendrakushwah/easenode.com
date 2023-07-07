@@ -59,11 +59,11 @@ function Header() {
         <div className="flex gap-2 md:gap-5">
           <ul className=" gap-5 font-medium font-roboto hidden lg:flex">
             <li>
-              <Link to="/customer" className="text-main ">Sign In</Link>
+              <Link to="https://app.easenode.com/login" className="text-main ">Sign In</Link>
             </li>
 
             <li>
-              <Link to="/customer" className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4">
+              <Link to="https://app.easenode.com/register" className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4">
                 Free trial
               </Link>
             </li>

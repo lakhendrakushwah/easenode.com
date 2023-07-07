@@ -90,7 +90,7 @@ function MarketPlace() {
         </div>
 
         <div className="text-center">
-          <Link className="hover:text-main inline-block  text-lg font-medium hover:bg-transparent bg-main text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
+          <Link to="https://app.easenode.com/dashboard/marketplace" className="hover:text-main inline-block  text-lg font-medium hover:bg-transparent bg-main text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
             Visit marketplace
           </Link>
         </div>
