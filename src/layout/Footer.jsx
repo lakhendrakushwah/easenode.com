@@ -14,7 +14,7 @@ function Footer() {
           <p className="text-sm text-[#999999] pb-8 w-auto md:max-w-prose">
             Easenode Tech Private Limited is a dynamic and innovative technology
             company focused on offering a centralized platform for managing
-            their SaaS subscriptions and expenses.
+            your SaaS subscriptions and expenses.
           </p>
 
           <ul className="flex gap-7 pb-14">
@@ -77,7 +77,7 @@ function Footer() {
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="https://easexpenses.wordpress.com/">
                   Blog
                 </a>
               </li>

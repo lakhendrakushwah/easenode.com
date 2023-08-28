@@ -4,9 +4,9 @@ function Company() {
   return (
     <div className="container">
       <h4 className="text-[#999999] text-lg pt-10 md:pt-20 lg:pt-32 pb-10 text-center">
-        Trusted by 1k+ companies
+        Trusted by 10+ companies
       </h4>
-      <div className="flex flex-row flex-wrap gap-10">
+      <div className="flex flex-row flex-wrap gap-10"  style={{marginBottom: '100px'}}>
         <div className="flex-shrink-1 flex-grow basis-1/4 lg:basis-[15%] flex justify-center items-center">
           <img
             className=""

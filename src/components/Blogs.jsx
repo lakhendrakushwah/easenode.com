@@ -8,17 +8,20 @@ function Blogs() {
       title:
         "The Importance of Effective Spend Management for Businesses",
       des: "Effective spend management is a critical aspect of running a successful business. It involves strategically planning, monitoring, and controlling expenses to optimize financial resources. In this blog post... ",
+      url:"https://easexpenses.wordpress.com/2023/08/14/unveiling-the-significance-of-effective-spend-management-for-business-success/"
     },
     {
       src: "/images/blogs/blog-1.png",
       title:
         "Unlocking Business Growth with SaaS Management ",
       des: "Software-as-a-Service (SaaS) applications have become integral to the success of modern businesses. However, effectively managing multiple SaaS subscriptions and ensuring their optimal utilization can be a challenge..... ",
+      url:"https://easexpenses.wordpress.com/2023/08/14/accelerating-business-growth-through-effective-saas-management/"
     },
     {
       src: "/images/blogs/blog-4.png",
       title: "Cost Optimization and Analysis",
       des: "Cost optimization and analysis are paramount for businesses aiming to enhance profitability and drive efficiency. With Easenode Tech's comprehensive solutions, businesses can gain deeper insights into their software spend, negotiate better deals with vendors, track expenses in real-time.... ",
+      url:"https://easexpenses.wordpress.com/2023/08/14/unveiling-the-power-of-cost-optimization-and-analysis-for-business-success/"
     },
   ];
 
@@ -78,7 +81,7 @@ function Blogs() {
                 <h2 className="text-2xl font-semibold pb-6">{blog.title}</h2>
                 <p className="text-[#999999]">
                   {blog.des}
-                  <Link className="text-[#666666] font-medium">Read More</Link>
+                  <Link to={blog.url} className="text-[#666666] font-medium">Read More</Link>
                 </p>
               </div>
             ))}
@@ -101,7 +104,7 @@ function Blogs() {
         </div>
 
         <div className="text-center">
-          <Link className="text-main inline-block  text-lg font-medium hover:bg-main hover:text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
+          <Link to="https://easexpenses.wordpress.com/" className="text-main inline-block  text-lg font-medium hover:bg-main hover:text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
             Explore more
           </Link>
         </div>

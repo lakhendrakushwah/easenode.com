@@ -24,23 +24,23 @@ function MarketPlace() {
     },
     {
       src: "/images/marketplaces/marketplace-5.png",
-      title: "HubSpot",
-      des: "A popular video conferencing and online meeting platform that enables seamless ",
+      title: "Zoho",
+      des: "Zoho Corporation is an Indian multinational technology company that makes computer software and web-based business tools. ",
     },
     {
       src: "/images/marketplaces/marketplace-6.png",
-      title: "Dropbox",
-      des: "A popular video conferencing and online meeting platform that enables seamless ",
+      title: "Google",
+      des: "Google LLC is an American multinational technology company focusing on artificial intelligence, online advertising, search engine technology etc ",
     },
     {
       src: "/images/marketplaces/marketplace-7.png",
       title: "AWS",
-      des: "A popular video conferencing and online meeting platform that enables seamless ",
+      des: "Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies ",
     },
     {
       src: "/images/marketplaces/marketplace-8.png",
-      title: "ZOH8",
-      des: "A popular video conferencing and online meeting platform that enables seamless ",
+      title: "Hubspot",
+      des: "HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service ",
     },
   ];
 
